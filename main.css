@@ -13,6 +13,9 @@ a{
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .nav-bar-components{
@@ -26,7 +29,59 @@ a{
     margin-left:10px;
     margin-right:10px;
     font-size: 20px;
+    
 }
 .nav-bar-spacing:hover{
     color:yellow;
+
+}
+
+
+
+.hobby{
+    color:white;
+    margin: 20px;
+    
+}
+
+.landing-page-title{
+    display: flex;
+}
+
+.homepage{
+    justify-content: flex-end;
+    align-items: end;
+    padding-right:  20px;
+}
+
+.programme{
+    flex:1;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.title-content-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.text-content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar-image{
+
 }
