@@ -16,12 +16,27 @@
             <div class="text-content-container">
                 <p class="main-title">I have just began making programmes and below is a few i have <span class='main-title-accent'>finished.</span></p>    
                 <p class="programme-title">See my programmes here</p>
+                <p class="description-programme-title"> i am a computer science student</p>
             </div>
             <div class="image-content-container">
-                <img class="nav-bar-image" src='assets/soccer-ball-goal.png' width="600px" height="400px">
+                <img class="nav-bar-image" src='assets/computer.jpg' width="600px" height="400px">   
             </div>
-            
         </div>
+        <div class="project1">
+            <div class="programme-description-text">
 
+            </div>
+
+        </div>
+        
+        <script>
+            const computer_jpg = document.querySelector('.nav-bar-image');
+            computer_jpg.addEventListener('click',changeImage)
+
+            function changeImage(event) {
+                alert('i am a computer programmer')
+                computer_jpg.src='https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_desktop_computers.jpg'
+            }
+        </script>
     </body>
 </html>
